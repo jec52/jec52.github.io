@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-# About
-
 Jonathan Cope is a researcher specialising in underground crop ecology and Genotype × Environment interactions in [Martin Weih](https://www.slu.se/en/profilepages/w/martin-weih/)'s [Plant Ecology](https://www.slu.se/en/research/research-catalogue/grupper/v/plant-ecology-vpe/) group.
 
 Previous work has included identification of genetic regions involved in tolerance to different biotic (e.g. fungal diseases) and abiotic (e.g. salt stress and nutrient differences) stresses in a Scottish landrace of barley, "Bere".
