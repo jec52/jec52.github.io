@@ -23,10 +23,10 @@ repository               : "jec52/jec52.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "IMG_8010.JPEG"
   name             : "Jonathan Cope"
   pronouns         : "he/him"  
-  bio              : "Focusing on underground crop ecology and its role in shaping crop resilience & yield through management practices, root architecture, nutrient cycles, and microbial networks."
+  bio              : "Researcher specialising in underground crop ecology and Genotype × Environment interactions"
   location         : "Uppsala Sweden"
   employer         : "Swedish University of Agricultural Sciences"
   uri              : "https://www.slu.se/en/profilepages/c/jonathan-cope/"
