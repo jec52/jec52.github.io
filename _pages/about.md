@@ -1,56 +1,35 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+# About
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+Jonathan Cope is a researcher specialising in underground crop ecology and Genotype × Environment interactions in [Martin Weih](https://www.slu.se/en/profilepages/w/martin-weih/)'s [Plant Ecology](https://www.slu.se/en/research/research-catalogue/grupper/v/plant-ecology-vpe/) group.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Previous work has included identification of genetic regions involved in tolerance to different biotic (e.g. fungal diseases) and abiotic (e.g. salt stress and nutrient differences) stresses in a Scottish landrace of barley, "Bere".
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+The current focus of his work is on underground crop ecology: root system architecture (RSA), how management practices affect this, and how this interacts with the nutrient cycle and microbial community to affect yield.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+## Research
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+My main research is on **Underground Crop Ecology**, with projects including:
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+- **[HeRo (SLU Grogrund)](https://www.slu.se/en/research/research-catalogue/projekt/h/hero/)**, where I develop and apply approaches to study how environmental factors, such as region and preceding crop, shape RSA, and how these changes in turn influence nutrient accumulation and the composition of the root-associated microbial community.
+- **[InterRoot (Ekhagastiftelsen)](https://www.slu.se/en/research/research-catalogue/projekt/i/interroot/)**, where I coordinate and carry out the project's work on intercropping root complementarity, with the goal of maximising cereal–legume intercropping under organic conditions.
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+### Contributing to
 
-**Markdown generator**
+- **[DIVERSOW (Ekhagastiftelsen)](https://www.slu.se/en/research/research-catalogue/projekt/d/diversow/)**, where I investigate how landrace-based inter- and intra-cropping affects organic crop performance through RSA, nutrient accumulation and fungal disease, and relate these responses to the broader project's holistic assessment of the root-associated microbiome, weeds, and insect dynamics.
+- **[RhizoLupin (Ekhagastiftelsen)](https://www.slu.se/en/research/research-catalogue/projekt/i/identification-of-rhizobia-bacteria-associated-with-narrow---leaved-lupin/)**, where I advise on links between RSA, rhizobia establishment, nitrogen fixation and lupin crop performance, and coordinate experiments investigating whether introduced rhizobia can survive, adapt, and fix nitrogen effectively under organic Swedish conditions.
+- **[N2CROP (Novo Nordisk Foundation)](https://www.slu.se/en/research/research-catalogue/projekt/n/n2crop/)**, where I advise on how RSA affects nitrogen-use efficiency and performance in faba bean–cereal intercropping systems, and co-supervise a PhD student in work aiming to use legume symbiotic nitrogen fixation to produce high-quality and nutritious plant protein in sustainable agri-food systems.
+- **[Robust Wheat (SLU Grogrund)](https://www.slu.se/en/research/research-catalogue/projekt/r/robust-wheat/)**, where I advise on how RSA contributes to wheat robustness under diverse environmental conditions, including water stress.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+### Previous projects
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+- **[NewP (Formas)](https://www.slu.se/en/research/research-catalogue/projekt/n/newp/)**, where I co-supervised a PhD student working on how early root growth and root-to-shoot allocation relate to nitrogen economy during grain filling in spring wheat, as part of work identifying traits for improved nutrient use and yield under Swedish conditions.
+- **[Identifying traits from Scots Bere and other landraces to develop stress tolerant barley (AHDB)](https://ahdb.org.uk/identifying-traits-from-scots-bere-and-other-landraces-to-develop-stress-tolerant-barley-phd)**, where I identified genetic regions associated with tolerance to biotic stresses, such as fungal diseases, and abiotic stresses, such as salt stress and nutrient differences, in the Scottish barley landrace "Bere".
